@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_search_by_labels">
+        <item>@string/setting_search_finance</item>
+        <item>@string/setting_search_sports</item>
+        <item>@string/setting_search_default</item>
+        <item>@string/setting_search_entertainment</item>
+        <item>@string/setting_search_politics</item>
+
+    </string-array>
+
+
+
+</resources>

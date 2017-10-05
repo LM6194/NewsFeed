@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">News Feed</string>
+    <!-- Setting Activity title [CHAR LIMIT = NONE]-->
+    <string name="setting_title">News Settings</string>
+    <!-- Settings menu item[ CHAR LIMIT = NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Error message when there is not internet connectivity[CHAR LIMIT=NONE]-->
+    <string name="no_internet_connection">No Internet Connection.</string>
+    <!-- Text to display in the list when there are not news[CHAR LIMIT = NONE]-->
+    <string name="no_news">No News Found.</string>
+    <!-- String for Order by preference[CHAR LIMIT=30] -->
+    <string name="setting_search_by_label">Search</string>
+    <string name="setting_search_by_key" translatable="false">Search By</string>
+    <string name="setting_search_default" translatable="false">News</string>
+    <string name="setting_search_finance" translatable="false">Finance</string>
+    <string name="setting_search_sports" translatable="false">Sports</string>
+    <string name="setting_search_entertainment" translatable="false">Entertainment</string>
+    <string name="setting_search_politics" translatable="false">Politics</string>
+
+
+
+</resources>
