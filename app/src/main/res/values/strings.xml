@@ -16,7 +16,10 @@
     <string name="setting_search_sports" translatable="false">Sports</string>
     <string name="setting_search_entertainment" translatable="false">Entertainment</string>
     <string name="setting_search_politics" translatable="false">Politics</string>
-
+    <string name="date">date</string>
+    <string name="author">author</string>
+    <string name="section">section</string>
+    <string name="title">TITLE</string>
 
 
 </resources>
