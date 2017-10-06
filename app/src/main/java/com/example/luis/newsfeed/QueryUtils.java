@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Helper methods related to requesting and receiving earthquake data from USGS.
+ * Helper methods related to requesting and receiving news data from USGS.
  */
 public final class QueryUtils {
 
@@ -102,7 +102,7 @@ public final class QueryUtils {
                 Log.e(LOG_TAG, "Error response code: " + urlConnection.getResponseCode());
             }
         } catch (IOException e) {
-            Log.e(LOG_TAG, "Problem retrieving the earthquake JSON results.", e);
+            Log.e(LOG_TAG, "Problem retrieving the news JSON results.", e);
         } finally {
             if (urlConnection != null) {
                 urlConnection.disconnect();
@@ -163,7 +163,7 @@ public final class QueryUtils {
             JSONArray newsArray = response.getJSONArray("results");
 
 
-            //for each earthquake in the earthquakeArray, create an {@link Earthquake} object
+            //for each news in the newsArray, create an {@link news} object
             for (int i = 0; i < newsArray.length(); i++) {
                 // Get a single news at position i
                 JSONObject currentNews = newsArray.getJSONObject(i);

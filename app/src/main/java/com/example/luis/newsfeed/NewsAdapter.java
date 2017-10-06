@@ -22,8 +22,8 @@ public class NewsAdapter extends ArrayAdapter<News> {
         super(context, 0, latestNews);
     }
     /**
-     * Returns a list item view that displays information about the earthquake at the given position
-     * in the list earthquake
+     * Returns a list item view that displays information about the news at the given position
+     * in the list news
      */
 
     @Override
@@ -35,7 +35,7 @@ public class NewsAdapter extends ArrayAdapter<News> {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.news_list_item, parent, false);
         }
-        // find earthquake at a given position in the earthquake list
+        // find news at a given position in the news list
         News currentNews = getItem(position);
 
         // find TextView for id news_title

@@ -135,12 +135,12 @@ public class NewsActivity extends AppCompatActivity implements LoaderCallbacks<L
         View loadingIndicator = findViewById(R.id.loading_indicator);
         loadingIndicator.setVisibility(View.GONE);
 
-        // Set empty state text to display "No earthquake found."
+        // Set empty state text to display "No news found."
         mEmptyStateView.setText(R.string.no_news);
 
-        // Clear the adapter of previous earthquake data
+        // Clear the adapter of previous news data
         mAdapter.clear();
-        //If there is a valid list of {@link Earthquake}s, then add them to the adapter's
+        //If there is a valid list of {@link news}s, then add them to the adapter's
         // date set. This will trigger the ListView to update.
         if(latestNews != null && !latestNews.isEmpty()){
             mAdapter.addAll(latestNews);

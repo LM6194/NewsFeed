@@ -15,7 +15,7 @@ import java.util.List;
  */
 
 /**
- * Loads a list of earthquakes by using an AsyncTask to perform the network request
+ * Loads a list of newss by using an AsyncTask to perform the network request
  * to the given URL.
  */
 
@@ -54,7 +54,7 @@ public class NewsLoader extends AsyncTaskLoader<List<News>> {
         }
 
         // Perform the network request, parse the response,
-        //and extract a list of earthquakes.
+        //and extract a list of newss.
         List<News> latestNews = QueryUtils.fetchNewsData(mUrl);
         return latestNews;
     }
